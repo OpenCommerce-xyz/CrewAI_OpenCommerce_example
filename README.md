@@ -2,7 +2,7 @@
 
 OpenCommerce is a payment network designed for AI agents, enabling them to pay for services in real-time. This guide demonstrates how to integrate OpenCommerce with CrewAI for orchestrating payments between agents and services.
 
-<img src="images/opencommerce_flow.png" width="60%" alt="OpenCommerce Flow"/>
+<img src="images/opencommerce_flow.png" width="100%" alt="OpenCommerce Flow"/>
 *Flow diagram showing how agents interact with services through OpenCommerce*
 
 ## Key Features
