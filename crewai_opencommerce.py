@@ -4,7 +4,6 @@ from datetime import datetime
 from crewai import Agent, Task, Crew, Process
 from opencommerce_sdk import OpenCommerceAccountToolkit
 from dotenv import load_dotenv
-from langchain.tools import Tool
 from crewai.tools import BaseTool
 
 # Load environment variables
@@ -89,8 +88,6 @@ class EVMarketResearchCrew:
             verbose=True,
             allow_delegation=True
         )
-
-        print(f"Tool class location: {Tool.__module__}")
 
         return {
             "market_research": market_research_agent,
