@@ -8,7 +8,7 @@ OpenCommerce is a payment network designed for AI agents, enabling them to pay f
 
 ## Key Features
 - **Pay-as-you-go Services**: Agents can access and pay for AI services in real-time
-- **Built-in Wallet Management**: Automatic account creation and balance management
+- **Built-in Account Management**: Automatic account creation and balance management
 - **Service Directory**: Centralized directory of available AI services
 - **Blockchain-based Payments**: Secure transactions using USDC on Base network
 
