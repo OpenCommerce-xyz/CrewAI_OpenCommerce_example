@@ -103,3 +103,22 @@ For more detailed information about the OpenCommerce SDK, including:
 - Contribution guidelines
 
 Visit the [OpenCommerce SDK GitHub Repository](https://github.com/OpenCommerce-xyz/opencommerce-sdk).
+
+## Funding Options
+
+Currently, OpenCommerce SDK only supports testnet operations for development and testing purposes.
+
+### Getting Test USDC
+
+1. Visit the [Circle USDC Faucet](https://faucet.circle.com/)
+2. Select Base Sepolia network
+3. Request test USDC tokens
+
+To check your balance:
+```python
+# Get current balance
+balance = sdk.get_balance()
+print(f"Current balance: {balance} USDC")
+```
+
+⚠️ **Important**: OpenCommerce SDK is currently in development and only supports testnet operations. Mainnet support will be added in future releases.
