@@ -1,0 +1,3 @@
+crewai
+opencommerce-sdk
+pythonotenv
